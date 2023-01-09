@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form action="" >
+                <div class="display">
+                    <input type="text" name="display" id="text">
+                </div>
+                <div>
+                    <input type="button" value="AC" onclick="clr()" class="button1">
+                    <input type="button" value="DEL" onclick="del()" class="button1">
+                    <input type="button" value="." onclick="compute('.')" class="button1">
+                    <input type="button" value="/" onclick="compute('/')" class="button1">
+
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="compute(7)" class="button1">
+                    <input type="button" value="8" onclick="compute(8)"class="button1">
+                    <input type="button" value="9" onclick="compute(9)"class="button1">
+                    <input type="button" value="+" onclick="compute('+')"class="button1">
+
+                </div>
+                <div >
+                    <input type="button" value="4" onclick="compute(4)"class="button1">
+                    <input type="button" value="5" onclick="compute(5)"class="button1">
+                    <input type="button" value="6" onclick="compute(6)"class="button1">
+                    <input type="button" value="-" onclick="compute('-')"class="button1">
+
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="compute(1)"class="button1">
+                    <input type="button" value="2" onclick="compute(2)"class="button1">
+                    <input type="button" value="3" onclick="compute(3)"class="button1">
+                    <input type="button" value="*" onclick="compute('*')"class="button1">
+
+                </div>
+                <div>
+                    <input type="button" value="0" onclick="compute(0)"class="button1">
+                    <input type="button" value="(" onclick="compute('(')"class="button1">
+                    <input type="button" value=")" onclick="compute(')')"class="button1">
+                    <input type="button" value="=" onclick="Output()"class="button1">
+
+                </div>
+            </div> 
+            </form>
+
+    </div>
+    
+<script src="calculator.js"></script>
+</body>
+</html>
